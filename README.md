@@ -59,17 +59,19 @@ flutter run lib/main.dart
 ```
 ## Project Structure
 ```
-Colido/
+colido/
 ├── lib/
 │   ├── data/
 │   │   ├── model/
-│   │   │   └── language_model
-│   │   ├── announcements_data
-│   │   └── quizes_data
-│   └── presentation/
-│       ├── page/
-│       │   └── components
-│       ├── style 
-│       └── widget
-└── assets
+│   │   │   └── language_mode
+│   │   ├── quizes_data
+│   │   └── announcements_data
+│   ├── l10n
+│   ├── presentation/
+│   │   ├── page/
+│   │   │   └── components
+│   │   ├── style
+│   │   └── widget
+│   └── provider
+└── asset
 ```
